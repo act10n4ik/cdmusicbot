@@ -1,12 +1,27 @@
-<html lang="ru">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>CDMUSICBOT</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram Music Web App</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-        <div id="Main">
-        <hl>CDMUSICBOT</hl>
-        <button id="test"> TestXD</button>
-        <img src="https://aspo.ru/upload/iblock/71a/s7cssvwcjikuaael2iy2slzbx503348b.jpg"
+    <header>
+        <h1>Welcome to Telegram Music Web App</h1>
+    </header>
+
+    <main>
+        <div class="music-player">
+            <audio controls>
+                <source src="song.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2022 Telegram Music Web App</p>
+    </footer>
 </body>
 </html>
